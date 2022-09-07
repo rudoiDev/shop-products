@@ -71,7 +71,6 @@ export default () => {
 
 	function deleteProduct(e) {
 		const dataID = e.target.getAttribute('data-id');
-		console.log(e.target.getAttribute('data-id') )
 		if (confirm(`Удалить из корзины: ${cartReduce[dataID].name}: ${cartData[dataID]} шт.`)) {
 			dispatch(deleteElem(cartReduce[dataID].id))
 		}

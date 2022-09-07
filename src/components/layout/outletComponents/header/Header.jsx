@@ -1,17 +1,21 @@
 import React from "react";
 import CustomLink from "./customLink/CustomLink";
+import { Link } from "react-router-dom";
 import './header.scss';
 
 export default () => {
+	const unshowBurgerMenu = () => {
+		document.querySelector('.btn-close').click()
+	}
 	return (
 		<>
 			<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 				<div className="container">
-					<a href="\">
-						<div className='nav_img'>
+					<Link to='/'>
+					<div className='nav_img'>
 							<img src="https://cdn-icons-png.flaticon.com/512/2674/2674486.png" alt="Продукты" />
 						</div>
-					</a>
+					</Link>
 					<CustomLink children='Магазин продуктов' link='/'
 					style="navbar-brand"/>
 					<button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -24,19 +28,19 @@ export default () => {
 						</div>
 						<div className="offcanvas-body">
 							<ul className="navbar-nav flex-grow-1 pe-3">
-								<li className="nav-item">
+								<li className="nav-item" onClick={(unshowBurgerMenu)}>
 									<CustomLink children='Фрукты и овощи' link='/fruits'
 										style="nav-link"/>
 								</li>
-								<li className="nav-item">
+								<li className="nav-item" onClick={(unshowBurgerMenu)}>
 									<CustomLink children='Мясо' link='/meat'
 										style="nav-link"/>
 								</li>
-								<li className="nav-item">
+								<li className="nav-item" onClick={(unshowBurgerMenu)}>
 									<CustomLink children='Выпечка' link='/flour'
 										style="nav-link"/>
 								</li>
-								<li className="nav-item">
+								<li className="nav-item" onClick={(unshowBurgerMenu)}>
 									<CustomLink children='Молочное' link='/milk'
 											style="nav-link"/>
 								</li>
