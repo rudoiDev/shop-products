@@ -1,0 +1,65 @@
+[
+	{
+		"id": "1w1w1w",
+		"name": "Хлеб",
+		"nameEN": "bread",
+		"value": 40,
+		"img": "https://cdn-icons-png.flaticon.com/512/3348/3348101.png"
+	},
+	{
+		"id": "2w2w2w",
+		"name": "Пончик",
+		"nameEN": "donut",
+		"value": 50,
+		"img": "https://cdn-icons-png.flaticon.com/512/817/817297.png"
+	},
+	{
+		"id": "3w3w3w",
+		"name": "Тортик",
+		"nameEN": "cake",
+		"value": 100,
+		"img": "https://cdn-icons-png.flaticon.com/512/817/817318.png"
+	},
+	{
+		"id": "4w4w4w",
+		"name": "Печение",
+		"nameEN": "cookie",
+		"value": 75,
+		"img": "https://cdn-icons-png.flaticon.com/512/541/541803.png"
+	},
+	{
+		"id": "5w5w5w",
+		"name": "Пицца",
+		"nameEN": "pizza",
+		"value": 150,
+		"img": "https://cdn-icons-png.flaticon.com/512/1669/1669087.png"
+	},
+	{
+		"id": "6w6w6w",
+		"name": "Пирожное",
+		"nameEN": "cake",
+		"value": 120,
+		"img": "https://cdn-icons-png.flaticon.com/512/1669/1669070.png"
+	},
+	{
+		"id": "7w7w7w",
+		"name": "Сендвич",
+		"nameEN": "sandwich",
+		"value": 90,
+		"img": "https://cdn-icons-png.flaticon.com/512/1669/1669112.png"
+	},
+	{
+		"id": "8w8w8w",
+		"name": "Круасан",
+		"nameEN": "croissant",
+		"value": 35,
+		"img": "https://cdn-icons-png.flaticon.com/512/434/434370.png"
+	},	
+	{
+		"id": "9w9w9w",
+		"name": "Гамбургер",
+		"nameEN": "hamburger",
+		"value": 150,
+		"img": "https://cdn-icons-png.flaticon.com/512/541/541766.png"
+	}
+]

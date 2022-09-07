@@ -1,0 +1,65 @@
+[
+	{
+		"id": "1a1a1a",
+		"name": "Молоко",
+		"nameEN": "milk",
+		"value": 90,
+		"img": "https://cdn-icons-png.flaticon.com/512/869/869664.png"
+	},	
+	{
+		"id": "2a2a2a",
+		"name": "Сок",
+		"nameEN": "juice",
+		"value": 130,
+		"img": "https://cdn-icons-png.flaticon.com/512/4391/4391827.png"
+	},	
+	{
+		"id": "3a3a3a",
+		"name": "Сыр",
+		"nameEN": "cheese",
+		"value": 190,
+		"img": "https://cdn-icons-png.flaticon.com/512/8204/8204851.png"
+	},	
+	{
+		"id": "4a4a4a",
+		"name": "Яйца",
+		"nameEN": "eggs",
+		"value": 145,
+		"img": "https://cdn-icons-png.flaticon.com/512/3142/3142726.png"
+	},	
+	{
+		"id": "5a5a5a",
+		"name": "Сметана",
+		"nameEN": "sourCream",
+		"value": 105,
+		"img": "https://cdn-icons-png.flaticon.com/512/4034/4034100.png"
+	},	
+	{
+		"id": "6a6a6a",
+		"name": "Творог",
+		"nameEN": "cottageCheese",
+		"value": 230,
+		"img": "https://cdn-icons-png.flaticon.com/512/2174/2174632.png"
+	},	
+	{
+		"id": "7a7a7a",
+		"name": "Кефир",
+		"nameEN": "kefir",
+		"value": 135,
+		"img": "https://cdn-icons-png.flaticon.com/512/7078/7078696.png"
+	},	
+	{
+		"id": "8a8a8a",
+		"name": "Сливки",
+		"nameEN": "cream",
+		"value": 160,
+		"img": "https://cdn-icons-png.flaticon.com/512/5816/5816089.png"
+	},	
+	{
+		"id": "9a9a9a",
+		"name": "Масло",
+		"nameEN": "oil",
+		"value": 185,
+		"img": "https://cdn-icons-png.flaticon.com/512/2366/2366403.png"
+	}	
+]

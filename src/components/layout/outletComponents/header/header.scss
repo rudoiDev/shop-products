@@ -1,0 +1,77 @@
+@import '@/components/styles/mixins.scss';
+nav {
+	&:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: url('https://static.tildacdn.com/tild6163-6635-4565-b435-383963626331/pngwingcom_22.png') 0 0/cover no-repeat;
+		opacity: .1;
+		z-index: 0;
+	}
+	* {
+		z-index: 20;
+	}
+}
+
+.nav_img {
+	img {
+		object-fit: contain;
+		width: 50px;
+		height: 50px;
+		margin: 10px;
+		margin-right: 20px;
+	}
+}
+.nav-link.active,
+.navbar-brand.active {
+	color: #6EFF8B !important;
+	text-shadow: 0px 0px 10px #49ab5c;
+}
+.navbar-brand {
+	font-style: italic;
+	font-size: 30px;
+	transition: all .2s ease;
+	&:hover {
+		color: #6EFF8B !important;
+		text-shadow: 0px 0px 10px #49ab5c;
+	}
+	@media screen and (min-width: 992px) {
+		padding-right: 20px;
+		border-right: 1px solid #fff;
+	}
+	@media screen and (max-width: 500px) {
+		display: none;
+	}
+}
+.offcanvas {
+	&:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: url('https://static.tildacdn.com/tild6163-6635-4565-b435-383963626331/pngwingcom_22.png');
+		opacity: .1;
+		z-index: 0;
+	}
+	* {
+		z-index: 10;
+	}
+} 
+.offcanvas-body {
+	* {
+		@include adaptive-value('font-size', 24, 16, 1)
+	}
+}
+
+.container_header {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

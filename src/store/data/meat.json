@@ -1,0 +1,65 @@
+[
+	{
+		"id": "1q1q1q",
+		"name": "Свинина",
+		"nameEN": "pork",
+		"value": 200,
+		"img": "https://cdn-icons-png.flaticon.com/512/1046/1046769.png"
+	},
+	{
+		"id": "2q2q2q",
+		"name": "Баранина",
+		"nameEN": "mutton",
+		"value": 150,
+		"img": "https://cdn-icons-png.flaticon.com/512/4213/4213064.png"
+	},
+	{
+		"id": "3q3q3q",
+		"name": "Говядина",
+		"nameEN": "beef",
+		"value": 170,
+		"img": "https://cdn-icons-png.flaticon.com/512/1134/1134447.png"
+	},
+	{
+		"id": "4q4q4q",
+		"name": "Курица",
+		"nameEN": "chicken",
+		"value": 100,
+		"img": "https://cdn-icons-png.flaticon.com/512/3005/3005103.png"
+	},
+	{
+		"id": "5q5q5q",
+		"name": "Рыба",
+		"nameEN": "fish",
+		"value": 120,
+		"img": "https://cdn-icons-png.flaticon.com/512/3005/3005150.png"
+	},
+	{
+		"id": "6q6q6q",
+		"name": "Котлеты",
+		"nameEN": "cutlets",
+		"value": 120,
+		"img": "https://cdn-icons-png.flaticon.com/512/8080/8080464.png"
+	},
+	{
+		"id": "7q7q7q",
+		"name": "Сосиски",
+		"nameEN": "sausages",
+		"value": 180,
+		"img": "https://cdn-icons-png.flaticon.com/512/2403/2403342.png"
+	},
+	{
+		"id": "8q8q8q",
+		"name": "Ребрышки",
+		"nameEN": "ribs",
+		"value": 220,
+		"img": "https://cdn-icons-png.flaticon.com/512/1582/1582165.png"
+	},
+	{
+		"id": "9q9q9q",
+		"name": "Бекон",
+		"nameEN": "bacon",
+		"value": 220,
+		"img": "https://cdn-icons-png.flaticon.com/512/4062/4062453.png"
+	}
+]
