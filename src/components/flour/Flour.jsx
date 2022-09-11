@@ -15,20 +15,20 @@ export default () => {
 	const path = useLocation()
 
 	useEffect(() => {
-		try {
-			setTimeout(() => {
-				fetch('https://jsonplaceholder.typicode.com/posts')
-				.then(response => response.json())
-				.then(json => useContent(json.reduce((accum, item) => {
+		(async () => {
+			try {
+				let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+				let data = await response.json();
+				useContent(data.reduce((accum, item) => {
 					accum[item['id']] = item.body;
 					return accum;
-				}, {})))
-				.then(useSpinner(false))
-			}, 200)
-		} catch(e) {
-			console.error(e);
-			useSpinner(false)
-		}
+				}, {}))
+				useSpinner(false)
+			} catch(e) {
+				console.error(e);
+				useSpinner(false)
+			}
+		})()
 	}, [])
 	return (
 		<>

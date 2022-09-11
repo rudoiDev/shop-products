@@ -33,17 +33,17 @@ export default () => {
 	}
 
 	useEffect(() => {
-		try {
-			setTimeout(() => {
-				fetch(`https://jsonplaceholder.typicode.com/posts/${index}`)
-				.then(response => response.json())
-				.then(json => useContent(json))
-				.then(useSpinner(false))
-			}, 200)
-		} catch(e) {
-			console.error(e);
-			useSpinner(false)
-		}
+		(async () => {
+			try {
+				let response = await fetch(`https://jsonplaceholder.typicode.com/posts/${index}`);
+				let data = await response.json();
+				useContent(data)
+				useSpinner(false)
+			} catch(e) {
+				console.error(e);
+				useSpinner(false)
+			}
+		})()
 	}, [])
 
 	return (
